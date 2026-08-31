@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "momentum-operations-analytics"
+version = "1.0.0"
+description = "Business operations and manufacturing analytics for inventory and supplier decisions."
+requires-python = ">=3.10"
+dependencies = [
+  "pandas>=2.2,<3",
+  "numpy>=1.26,<3",
+  "streamlit>=1.40,<2",
+  "plotly>=5.24,<7",
+  "mysql-connector-python>=9,<10",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
