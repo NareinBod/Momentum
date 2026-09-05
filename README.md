@@ -25,8 +25,10 @@ To load the normalized source data into MySQL, first execute `sql/schema.sql`, s
 - `src/momentum/forecasting.py` — demand forecast and stockout flags
 - `src/momentum/simulator.py` — what-if reorder analysis
 - `app.py` — decision-facing interactive dashboard
+- `pages/` — About, Methodology, and Data Guide pages for the deployed application
 - `powerbi/` — model relationships, DAX measures, and 3-page report blueprint
 - `tests/` — repeatable checks for ETL, metrics, forecast coverage, and reorder scenarios
+- `DEPLOYMENT.md` — recommended public and production deployment paths
 
 ## Business definitions
 
